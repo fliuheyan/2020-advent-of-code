@@ -9,8 +9,8 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Solution {
-    private static int ROW = 128;
-    private static int COLUMN = 8;
+    private static final int ROW = 128;
+    private static final int COLUMN = 8;
 
     public int getMaxSeatNumber() throws Exception {
         Stream<String> stringStream = Files.lines(Paths.get(getClass().getClassLoader().getResource("input5").toURI()));
